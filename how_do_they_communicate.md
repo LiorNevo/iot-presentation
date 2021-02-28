@@ -1,0 +1,2 @@
+### How do they communicate?
+"The communication model aims at defining the main communication paradigms for connecting entities, as defined in the domain model. We provide a reference communication stack, together with insight about the main interactions among the actors in the domain model. We developed a communication stack similar to the ISO OSI 7-layer model for networks, mapping the needed features of the domain model unto communication paradigms. We also describe how communication schemes can be applied to different types of networks in IoT."

@@ -4,21 +4,57 @@
 <head>
 	<meta charset="utf-8">
 	<title>IoT and Me</title>
-	<meta name="author" content="Lior Nevo">
-	<link rel="stylesheet" href="dist/reset.css">
-	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
-	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	<meta name="author" content="Lior Nevo"/>
+	<link rel="stylesheet" href="dist/reset.css"/>
+	<link rel="stylesheet" href="dist/reveal.css"/>
+	<link rel="stylesheet" href="dist/theme/moon.css" id="theme"/>
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"/>
+	<link rel="stylesheet" href="dist/main.css"/>
 </head>
 
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section>
-				about me
+			<section data-markdown="about_me.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+			</section>
+			<section data-markdown="what_are_iot_devices.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+			</section>
+			<section data-markdown="how_do_they_communicate.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
 			</section>
 			<section>
-				slide 2
+				how I got into iot
+			</section>
+			<section>
+				my setup/things you can do
+			</section>
+			<section>
+				my stack
+				<div class='stack-table'>
+					<div class='stack-table-row'>
+						<img alt='pi-hole' class='images' src='/pi-hole.png'/>
+					</div>
+					<div class='stack-table-row'>
+						<img alt='plex' class='images' src='/plex.png'/>
+					</div>
+					<div class='stack-table-row'>
+						<img alt='nextcloud' class='images' src='/nextcloud.png'/>
+					</div>
+					<div class='stack-table-row'>
+						<img alt='docker-registry' class='images' src='/docker-registry.png'/>
+					</div>
+					<div class='stack-table-row'>
+						<img alt='home-assistant' class='images' src='/home-assistant.png'/>
+					</div>
+					<div class='stack-table-row'>
+						<img alt='bitwarden' class='images' src='/bitwarden.png'>
+					</div>
+					<div class='stack-table-row'>
+						<img alt='node-red' class='images' src='/node-red.png'>
+					</div>
+				</div>
 			</section>
 		</div>
 	</div>
@@ -40,4 +76,5 @@
 	</script>
 
 </body>
+
 </html>
