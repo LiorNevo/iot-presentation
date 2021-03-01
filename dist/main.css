@@ -6,6 +6,21 @@
 .stack-table-row{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.stack-table-row:last-of-type {
+    border-bottom: none;
+}
+.stack-table-label {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    min-width: 30%;
+    text-align: left;
+}
+.stack-table-description {
+    margin-left: 10px;
+    font-size: 20px;
 }
 .images {
     width: 40px;

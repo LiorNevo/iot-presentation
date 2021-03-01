@@ -4,18 +4,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>IoT and Me</title>
-	<meta name="author" content="Lior Nevo"/>
-	<link rel="stylesheet" href="dist/reset.css"/>
-	<link rel="stylesheet" href="dist/reveal.css"/>
-	<link rel="stylesheet" href="dist/theme/moon.css" id="theme"/>
-	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"/>
-	<link rel="stylesheet" href="dist/main.css"/>
+	<meta name="author" content="Lior Nevo" />
+	<link rel="stylesheet" href="dist/reset.css" />
+	<link rel="stylesheet" href="dist/reveal.css" />
+	<link rel="stylesheet" href="dist/theme/moon.css" id="theme" />
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme" />
+	<link rel="stylesheet" href="dist/main.css" />
 </head>
 
 <body>
 	<div class="reveal">
 		<div class="slides">
 			<section data-markdown="about_me.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+			</section>
+			<section data-markdown="what_is_iot.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
 				data-separator-notes="^Note:" data-charset="iso-8859-15">
 			</section>
 			<section data-markdown="what_are_iot_devices.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
@@ -31,28 +34,42 @@
 				my setup/things you can do
 			</section>
 			<section>
-				my stack
+				<h3>my pi stack</h3>
 				<div class='stack-table'>
 					<div class='stack-table-row'>
-						<img alt='pi-hole' class='images' src='pi-hole.png'/>
+						<img alt='pi-hole' class='images' src='pi-hole.png' />
+						<span class='stack-table-label'>pi hole</span>
+						<span class='stack-table-description'>A DNS sinkhole, blocking adds and internet tracking</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='plex' class='images' src='plex.png'/>
+						<img alt='plex' class='images' src='plex.png' />
+						<span class='stack-table-label'>plex</span>
+						<span class='stack-table-description'>Media server</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='nextcloud' class='images' src='nextcloud.png'/>
+						<img alt='nextcloud' class='images' src='nextcloud.png' />
+						<span class='stack-table-label'>nextcloud</span>
+						<span class='stack-table-description'>A file hosting server</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='docker-registry' class='images' src='docker-registry.png'/>
+						<img alt='docker-registry' class='images' src='docker-registry.png' />
+						<span class='stack-table-label'>docker registry</span>
+						<span class='stack-table-description'>Private Docker registry</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='home-assistant' class='images' src='home-assistant.png'/>
+						<img alt='home-assistant' class='images' src='home-assistant.png' />
+						<span class='stack-table-label'>home assistant</span>
+						<span class='stack-table-description'>Home automation control dashboard</span>
 					</div>
 					<div class='stack-table-row'>
 						<img alt='bitwarden' class='images' src='bitwarden.png'>
+						<span class='stack-table-label'>bitwarden</span>
+						<span class='stack-table-description'>A vault for logins, keys, secrets</span>
 					</div>
 					<div class='stack-table-row'>
 						<img alt='node-red' class='images' src='node-red.png'>
+						<span class='stack-table-label'>node red</span>
+						<span class='stack-table-description'>Visual tool for wiring together hardware devices</span>
 					</div>
 				</div>
 			</section>
