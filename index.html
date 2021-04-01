@@ -15,20 +15,48 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-markdown="about_me.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+			<section>
+				IoT and Me
+			</section>
+			<section data-markdown="readme/about_me.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
 				data-separator-notes="^Note:" data-charset="iso-8859-15">
 			</section>
-			<section data-markdown="what_is_iot.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+			<section data-markdown="readme/what_is_iot.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
 				data-separator-notes="^Note:" data-charset="iso-8859-15">
 			</section>
-			<section data-markdown="what_are_iot_devices.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
-				data-separator-notes="^Note:" data-charset="iso-8859-15">
-			</section>
-			<section data-markdown="how_do_they_communicate.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+			<section data-markdown="readme/what_are_iot_devices.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
 				data-separator-notes="^Note:" data-charset="iso-8859-15">
 			</section>
 			<section>
-				how I got into iot
+				<img alt='communication' src='assets/communication.png' />
+				<aside class="notes">
+					As you can imagine, IoT communicates over many technologies. Ones you might be familiar with are Bluetooth and Wi-Fi
+					ZigBee and Z-Wave are also technologies that are prevalent with IoT because of low power usage and low latency.
+					The downside to using ZigBee and Z-Wave is that you would need an external hub to bridge the communication and consume it.
+				</aside>
+			</section>
+			<section>
+				<section>
+					<h3>how I got into iot</h3>
+					<aside class="notes">
+						I've always loved tinkering and heard about raspberry pi. One day, while working from home, my daughter was being interested
+						in what I was doing.
+					</aside>
+				</section>
+				<section>
+					<img alt='scratch' src='assets/scratch.png' />
+					<aside class="notes">
+						she he had previously
+						worked with me a little on scratch. 
+						Scratch is basically a drag and drop coding tool to generate small programs.
+					</aside>
+				</section>
+				<section>
+					<img alt='raspberry-starter' src='assets/raspberry-starter.png' />
+					<aside class="notes"> 
+						I wanted to go deeper with her so we started off with a raspberry developer starter kit. 
+					</aside>
+				</section>
 			</section>
 			<section>
 				my setup/things you can do
@@ -37,37 +65,37 @@
 				<h3>my pi stack</h3>
 				<div class='stack-table'>
 					<div class='stack-table-row'>
-						<img alt='pi-hole' class='images' src='pi-hole.png' />
+						<img alt='pi-hole' class='stack-images' src='assets/pi-hole.png' />
 						<span class='stack-table-label'>pi hole</span>
 						<span class='stack-table-description'>A DNS sinkhole, blocking adds and internet tracking</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='plex' class='images' src='plex.png' />
+						<img alt='plex' class='stack-images' src='assets/plex.png' />
 						<span class='stack-table-label'>plex</span>
 						<span class='stack-table-description'>Media server</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='nextcloud' class='images' src='nextcloud.png' />
+						<img alt='nextcloud' class='stack-images' src='assets/nextcloud.png' />
 						<span class='stack-table-label'>nextcloud</span>
 						<span class='stack-table-description'>A file hosting server</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='docker-registry' class='images' src='docker-registry.png' />
+						<img alt='docker-registry' class='stack-images' src='assets/docker-registry.png' />
 						<span class='stack-table-label'>docker registry</span>
 						<span class='stack-table-description'>Private Docker registry</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='home-assistant' class='images' src='home-assistant.png' />
+						<img alt='home-assistant' class='stack-images' src='assets/home-assistant.png' />
 						<span class='stack-table-label'>home assistant</span>
 						<span class='stack-table-description'>Home automation control dashboard</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='bitwarden' class='images' src='bitwarden.png'>
+						<img alt='bitwarden' class='stack-images' src='assets/bitwarden.png'>
 						<span class='stack-table-label'>bitwarden</span>
 						<span class='stack-table-description'>A vault for logins, keys, secrets</span>
 					</div>
 					<div class='stack-table-row'>
-						<img alt='node-red' class='images' src='node-red.png'>
+						<img alt='node-red' class='stack-images' src='assets/node-red.png'>
 						<span class='stack-table-label'>node red</span>
 						<span class='stack-table-description'>Visual tool for wiring together hardware devices</span>
 					</div>
