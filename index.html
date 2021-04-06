@@ -69,6 +69,21 @@
         </section>
         <section>
           <pre><code data-trim data-noescape>
+            from gpiozero import LED, Button
+            
+            BUTTON = Button(20, bounce_time=5)
+            
+            GREEN = LED(24)
+            YELLOW = LED(23)
+            BLUE = LED(25)
+            RED = LED(12)
+            WHITE = LED(16)
+            
+            COLORS = [GREEN, YELLOW, BLUE, RED, WHITE]
+					</code></pre>
+        </section>
+        <section>
+          <pre><code data-trim data-noescape>
 						def cycle(sleep_time: float = 0.2):
 							current_color = 0
 							length = len(COLORS)
